@@ -48,7 +48,6 @@ body {
 	background: url(../img/cruz_de_ferro_2.png);
 	width: 168px;
 	height: 167px;
-	display: inline-flex;
 	position: absolute;
 	animation-name: spin;
 	animation-duration: 2000ms;
