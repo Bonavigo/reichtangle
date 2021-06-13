@@ -2,7 +2,7 @@ let reichtangle = document.querySelector('.reichtangle');
 let preussens_gloria = document.querySelector('.preussens_gloria');
 
 preussens_gloria.volume = 0.3;
-function play() {
+function play_preussensGloria() {
 	if (preussens_gloria.dataset.status == 'tocando') {
 		preussens_gloria.pause();
 		preussens_gloria.dataset.status = 'pausado';
@@ -11,4 +11,4 @@ function play() {
 		preussens_gloria.dataset.status = 'tocando';
 	}
 }
-reichtangle.onclick = play;
+reichtangle.onclick = play_preussensGloria;
