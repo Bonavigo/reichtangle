@@ -23,13 +23,26 @@ body {
 	z-index: 5;
 }
 .bicicleta {
-	background: url(img/bicicleta_2.png) center center;
+	background: url(img/bicicleta_3.png);
 	width: 409px;
 	height: 264px;
 	position: absolute;
 	left: 65px;
 	top: -130px;
 	z-index: 4;
+}
+.pedal {
+	background: url(img/pedal_2.png);
+	width: 101px;
+	height: 105px;
+	position: absolute;
+	left: 190px;
+	top: 20px;
+	z-index: 5;
+	animation-name: spin;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 .cruz {
 	background: url(img/cruz_de_ferro_2.png);
