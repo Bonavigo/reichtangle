@@ -1,0 +1,71 @@
+body {
+	height: 100vh;
+}
+.container_do_reich {
+	position: relative;
+}
+.pickelhaube {
+	background: url(../img/pickelhaube_2.png);
+	width: 144px;
+	height: 143px;
+	position: absolute;
+	top: -450px;
+	left: 225px;
+	z-index: 6;
+}
+.reichtangle {
+	background: url(../img/reichstangle_2.png);
+	width: 210px;
+	height: 256px;
+	position: absolute;
+	top: -345px;
+	left: 200px;
+	z-index: 5;
+}
+.bicicleta {
+	background: url(../img/bicicleta_3.png);
+	width: 409px;
+	height: 264px;
+	position: absolute;
+	left: 65px;
+	top: -130px;
+	z-index: 4;
+}
+.pedal {
+	background: url(../img/pedal_2.png);
+	width: 101px;
+	height: 105px;
+	position: absolute;
+	left: 190px;
+	top: 20px;
+	z-index: 5;
+	animation-name: spin;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.cruz {
+	background: url(../img/cruz_de_ferro_2.png);
+	width: 168px;
+	height: 167px;
+	display: inline-flex;
+	position: absolute;
+	animation-name: spin;
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.cruz_esquerda {
+	left: 0px;
+}
+.cruz_direita {
+	left: 370px;
+}
+@keyframes spin {
+	from {
+		transform:rotate(360deg);
+	}
+	to {
+		transform:rotate(0deg);
+	}
+}
